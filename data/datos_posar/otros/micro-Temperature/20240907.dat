@@ -1,0 +1,25 @@
+Código de Sensor,Tiempo de Lectura,Dato,Nombre del Sensor,Unidad de Medición
+Temperature,2024-09-07 00:00:00,11.7357,C,C
+Temperature,2024-09-07 01:00:00,11.6785,C,C
+Temperature,2024-09-07 02:00:00,11.6756,C,C
+Temperature,2024-09-07 03:00:00,11.6198,C,C
+Temperature,2024-09-07 04:00:00,11.5066,C,C
+Temperature,2024-09-07 05:00:00,11.4741,C,C
+Temperature,2024-09-07 06:00:00,11.4324,C,C
+Temperature,2024-09-07 07:00:00,11.4171,C,C
+Temperature,2024-09-07 08:00:00,11.4151,C,C
+Temperature,2024-09-07 09:00:00,11.4072,C,C
+Temperature,2024-09-07 10:00:00,11.4,C,C
+Temperature,2024-09-07 11:00:00,11.3804,C,C
+Temperature,2024-09-07 12:00:00,11.3297,C,C
+Temperature,2024-09-07 13:00:00,11.4181,C,C
+Temperature,2024-09-07 14:00:00,11.5778,C,C
+Temperature,2024-09-07 15:00:00,11.7864,C,C
+Temperature,2024-09-07 16:00:00,11.9431,C,C
+Temperature,2024-09-07 17:00:00,12.0695,C,C
+Temperature,2024-09-07 18:00:00,12.1341,C,C
+Temperature,2024-09-07 19:00:00,12.1196,C,C
+Temperature,2024-09-07 20:00:00,12.0197,C,C
+Temperature,2024-09-07 21:00:00,11.8846,C,C
+Temperature,2024-09-07 22:00:00,11.7976,C,C
+Temperature,2024-09-07 23:00:00,11.7828,C,C

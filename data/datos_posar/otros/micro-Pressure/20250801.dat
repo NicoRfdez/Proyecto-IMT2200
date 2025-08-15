@@ -1,0 +1,25 @@
+Código de Sensor,Tiempo de Lectura,Dato,Nombre del Sensor,Unidad de Medición
+Pressure,2025-08-01 00:00:00,0.512,dbar,dbar
+Pressure,2025-08-01 01:00:00,0.597,dbar,dbar
+Pressure,2025-08-01 02:00:00,0.488,dbar,dbar
+Pressure,2025-08-01 03:00:00,0.626,dbar,dbar
+Pressure,2025-08-01 04:00:00,0.434,dbar,dbar
+Pressure,2025-08-01 05:00:00,0.541,dbar,dbar
+Pressure,2025-08-01 06:00:00,0.541,dbar,dbar
+Pressure,2025-08-01 07:00:00,0.628,dbar,dbar
+Pressure,2025-08-01 08:00:00,0.441,dbar,dbar
+Pressure,2025-08-01 09:00:00,0.637,dbar,dbar
+Pressure,2025-08-01 10:00:00,0.673,dbar,dbar
+Pressure,2025-08-01 11:00:00,0.625,dbar,dbar
+Pressure,2025-08-01 12:00:00,0.706,dbar,dbar
+Pressure,2025-08-01 13:00:00,0.58,dbar,dbar
+Pressure,2025-08-01 14:00:00,0.666,dbar,dbar
+Pressure,2025-08-01 15:00:00,0.585,dbar,dbar
+Pressure,2025-08-01 16:00:00,0.707,dbar,dbar
+Pressure,2025-08-01 17:00:00,0.537,dbar,dbar
+Pressure,2025-08-01 18:00:00,0.633,dbar,dbar
+Pressure,2025-08-01 19:00:00,0.756,dbar,dbar
+Pressure,2025-08-01 20:00:00,0.679,dbar,dbar
+Pressure,2025-08-01 21:00:00,0.72,dbar,dbar
+Pressure,2025-08-01 22:00:00,0.625,dbar,dbar
+Pressure,2025-08-01 23:00:00,0.653,dbar,dbar

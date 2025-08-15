@@ -1,0 +1,25 @@
+Código de Sensor,Tiempo de Lectura,Dato,Nombre del Sensor,Unidad de Medición
+oxygen,2025-07-21 00:00:00,5.347,ml/L,ml/L
+oxygen,2025-07-21 01:00:00,5.355,ml/L,ml/L
+oxygen,2025-07-21 02:00:00,5.361,ml/L,ml/L
+oxygen,2025-07-21 03:00:00,5.38,ml/L,ml/L
+oxygen,2025-07-21 04:00:00,5.376,ml/L,ml/L
+oxygen,2025-07-21 05:00:00,5.333,ml/L,ml/L
+oxygen,2025-07-21 06:00:00,5.306,ml/L,ml/L
+oxygen,2025-07-21 07:00:00,5.299,ml/L,ml/L
+oxygen,2025-07-21 08:00:00,5.29,ml/L,ml/L
+oxygen,2025-07-21 09:00:00,5.291,ml/L,ml/L
+oxygen,2025-07-21 10:00:00,5.344,ml/L,ml/L
+oxygen,2025-07-21 11:00:00,5.383,ml/L,ml/L
+oxygen,2025-07-21 12:00:00,5.404,ml/L,ml/L
+oxygen,2025-07-21 13:00:00,5.419,ml/L,ml/L
+oxygen,2025-07-21 14:00:00,5.436,ml/L,ml/L
+oxygen,2025-07-21 15:00:00,5.453,ml/L,ml/L
+oxygen,2025-07-21 16:00:00,5.473,ml/L,ml/L
+oxygen,2025-07-21 17:00:00,5.454,ml/L,ml/L
+oxygen,2025-07-21 18:00:00,5.444,ml/L,ml/L
+oxygen,2025-07-21 19:00:00,5.38,ml/L,ml/L
+oxygen,2025-07-21 20:00:00,5.334,ml/L,ml/L
+oxygen,2025-07-21 21:00:00,5.301,ml/L,ml/L
+oxygen,2025-07-21 22:00:00,5.175,ml/L,ml/L
+oxygen,2025-07-21 23:00:00,5.102,ml/L,ml/L

@@ -1,0 +1,25 @@
+Código de Sensor,Tiempo de Lectura,Dato,Nombre del Sensor,Unidad de Medición
+Pressure,2024-10-23 00:00:00,0.698,dbar,dbar
+Pressure,2024-10-23 01:00:00,0.709,dbar,dbar
+Pressure,2024-10-23 02:00:00,0.72,dbar,dbar
+Pressure,2024-10-23 03:00:00,0.682,dbar,dbar
+Pressure,2024-10-23 04:00:00,0.689,dbar,dbar
+Pressure,2024-10-23 05:00:00,0.698,dbar,dbar
+Pressure,2024-10-23 06:00:00,0.675,dbar,dbar
+Pressure,2024-10-23 07:00:00,0.685,dbar,dbar
+Pressure,2024-10-23 08:00:00,0.692,dbar,dbar
+Pressure,2024-10-23 09:00:00,0.706,dbar,dbar
+Pressure,2024-10-23 10:00:00,0.702,dbar,dbar
+Pressure,2024-10-23 11:00:00,0.699,dbar,dbar
+Pressure,2024-10-23 12:00:00,0.717,dbar,dbar
+Pressure,2024-10-23 13:00:00,0.705,dbar,dbar
+Pressure,2024-10-23 14:00:00,0.717,dbar,dbar
+Pressure,2024-10-23 15:00:00,0.714,dbar,dbar
+Pressure,2024-10-23 16:00:00,0.726,dbar,dbar
+Pressure,2024-10-23 17:00:00,0.717,dbar,dbar
+Pressure,2024-10-23 18:00:00,0.719,dbar,dbar
+Pressure,2024-10-23 19:00:00,0.739,dbar,dbar
+Pressure,2024-10-23 20:00:00,0.732,dbar,dbar
+Pressure,2024-10-23 21:00:00,0.739,dbar,dbar
+Pressure,2024-10-23 22:00:00,0.737,dbar,dbar
+Pressure,2024-10-23 23:00:00,0.733,dbar,dbar

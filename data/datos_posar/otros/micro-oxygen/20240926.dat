@@ -1,0 +1,25 @@
+Código de Sensor,Tiempo de Lectura,Dato,Nombre del Sensor,Unidad de Medición
+oxygen,2024-09-26 00:00:00,6.58,ml/L,ml/L
+oxygen,2024-09-26 01:00:00,6.54,ml/L,ml/L
+oxygen,2024-09-26 02:00:00,6.708,ml/L,ml/L
+oxygen,2024-09-26 03:00:00,6.59,ml/L,ml/L
+oxygen,2024-09-26 04:00:00,6.541,ml/L,ml/L
+oxygen,2024-09-26 05:00:00,6.442,ml/L,ml/L
+oxygen,2024-09-26 06:00:00,6.355,ml/L,ml/L
+oxygen,2024-09-26 07:00:00,6.255,ml/L,ml/L
+oxygen,2024-09-26 08:00:00,6.245,ml/L,ml/L
+oxygen,2024-09-26 09:00:00,6.305,ml/L,ml/L
+oxygen,2024-09-26 10:00:00,6.4,ml/L,ml/L
+oxygen,2024-09-26 11:00:00,6.494,ml/L,ml/L
+oxygen,2024-09-26 12:00:00,6.753,ml/L,ml/L
+oxygen,2024-09-26 13:00:00,7.116,ml/L,ml/L
+oxygen,2024-09-26 14:00:00,7.289,ml/L,ml/L
+oxygen,2024-09-26 15:00:00,7.522,ml/L,ml/L
+oxygen,2024-09-26 16:00:00,7.088,ml/L,ml/L
+oxygen,2024-09-26 17:00:00,7.522,ml/L,ml/L
+oxygen,2024-09-26 18:00:00,7.595,ml/L,ml/L
+oxygen,2024-09-26 19:00:00,7.451,ml/L,ml/L
+oxygen,2024-09-26 20:00:00,7.296,ml/L,ml/L
+oxygen,2024-09-26 21:00:00,7.158,ml/L,ml/L
+oxygen,2024-09-26 22:00:00,7.109,ml/L,ml/L
+oxygen,2024-09-26 23:00:00,6.975,ml/L,ml/L
