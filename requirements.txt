@@ -1,3 +1,4 @@
 pandas
 os
 tweepy
+python-dotenv
