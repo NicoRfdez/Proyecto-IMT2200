@@ -1,0 +1,4 @@
+archivo,ids_totales,muestra_procesada,porcentaje_muestra,fecha_inicio,fecha_fin,dias_cobertura
+Archivo 1,1174133,500000,42.58%,2020-10-07,2020-10-25,18
+Archivo 2,375436,200000,53.27%,2020-10-07,2020-10-25,18
+Archivo 3,149472,100000,66.90%,2020-10-25,2020-11-03,9
