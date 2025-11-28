@@ -1,7 +1,6 @@
-# Proyecto-IMT2200
-
-```markdown
-# Proyecto IMT2200
+---
+title: "Plebiscito 2020: datos en Twitter vs resultados reales"
+---
 
 Integrantes:
 - Victoria Otarola https://github.com/vickyotarola
@@ -37,4 +36,3 @@ Desarrollado con Python. Las bibliotecas principales empleadas son:
 Aclaración final
 ----------------
 Los cuadernos están pensados para lectura y revisión más que para ejecución en un entorno genérico sin ajustes (las rutas y ciertos recursos pueden depender del entorno local). Para cualquier duda sobre una notebook concreta, la explicación y el razonamiento están en las celdas de texto que acompañan a cada bloque de código.
-```

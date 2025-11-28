@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plebiscito 2020: Twitter vs Realidad</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Analizando las redes sociales en periodo de elecciones</h1>
+        <p class="subtitle">¿Podemos predecir los resultados electorales usando las redes sociales?</p>
+        
+        <div class="team-section">
+            <a href="https://github.com/vickyotarola" class="member-tag">Victoria Otarola</a>
+            <a href="https://github.com/OeMachucao" class="member-tag">Nicolas Abarzua</a>
+            <a href="https://github.com/NicoRfdez" class="member-tag">Nicolas Rojas</a>
+        </div>
+    </header>
+    
+
+    <div class="container">
+
+        <div class="note-wrapper">
+            <div class="sticky-note">
+                <h2>Contexto y Motivación</h2>
+                <p>
+                    Las redes sociales se han consolidado como espacios fundamentales en la comunicación política. 
+                    En Chile, el <strong>plebiscito de 2020</strong> evidenció el protagonismo de plataformas como Twitter y Reddit como medios de expresión ciudadana.
+                </p>
+                <br>
+                <p>
+                    Sin embargo, ¿son estas redes sociales verdaderamente un espejo de la realidad? Este proyecto busca entender a través de la alta polarización y agresivo discurso político,
+                    cómo se comportó la conversación en línea durante este periodo electoral y,
+                    para así comparar el "ruido digital" con los votos reales que definieron una nueva constitución.
+                </p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Entendiendo el Proyecto</h2>
+        <br><br>
+
+        <div class="story-section">
+            <div class="story-text">
+                <h3>01. Recolectando Datos</h3>
+                <p>
+                    Para entender lo que pasó en 2020, tuvimos que viajar al pasado digital. 
+                    <br>
+                    Nuestro objetivo: <strong>capturar la conversación de aquel entonces, de todas la formas posibles</strong>.
+                </p>
+                <p>
+                    El desafío principal fue que la API gratuita de Twitter es limitada. En lugar de usar métodos tradicionales, utilizamos un dataset académico de Harvard con <strong>1.7 millones de IDs de tweets</strong> de aquel entonces y justamente bajo el mismo contexto de preguntarse que se discutía politicamente en Chile de aquel entonces
+                </p>
+                <div class="fun-fact">
+                    Muchos tweets originales habían sido borrados y no pudiendo acceder directamente a sus contenidos, tuvimos que reconstruir la historia usando "Snowflake IDs" para extraer las fechas exactas sin necesidad del contenido textual
+                </div>
+            </div>
+            <div class="polaroid-container">
+                <div class="polaroid">
+                    <img src="../figures/grafico_votos_chile_y_extranjero.png" alt="Gráfico de actividad temporal">
+                    <div class="caption">Los resultados oficiales del SERVEL</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="story-section reverse">
+            <div class="story-text">
+                <h3>02. Las emociones como Motor (Analisis de Sentimiento)</h3>
+                <p>
+                    <strong>¿Que mueve a las redes?</strong>
+                    <br>
+                    Al analizar el tono de los mensajes, descubrimos un patron fascinante:
+                    Aunque la mayoría de los mensajes eran informativos o neutrales,
+                    los tweets cargados de sentimientos negativos (rabia, miedo o rechazo) generaban muchas más interacciones.
+                    Confirmamos que en el debate digital, la indignación viaja más rápido que la esperanza. 
+                    Las redes sociales actúan como un amplificador de las emociones extremas y estas son las que dan mayor "viralidad"."
+                </p>
+            </div>
+            <div class="polaroid-container">
+                <div class="polaroid">
+                    <img src="../figures/publicaciones_por_dia.png" alt="Actividad en Reddit">
+                    <div class="caption">Patrones en Reddit</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="story-section">
+            <div class="story-text">
+                <h3>03. Prediccion vs Realidad</h3>
+                <p>
+                    Entrenamos a una modelo para que leyera estos tweets que logramos recoelctar, efectivamente con su texto 
+                    y que intentara predecir el resultado en una elección. ¿Qué nos dijo el algoritmo?
+                </p>
+                <p>
+                    Twitter proyectaba un triunfo del Apruebo con un 83%. La Realidad (SERVEL): El Apruebo ganó con un 78%.
+                    Sin embargo, en las redes sociales, la discusión parecía mucho más peleada y polarizada. 
+                    Esto puede aumentar las dudas y complementar nuestra hipótesis de las <strong>"Cámaras de Eco"</strong>: en internet, tendemos a escuchar solo a quienes piensan igual que nosotros, creando una falsa sensación de empate o mayoría.
+                </p>
+
+                <p>
+                    ¡Estuvimos muy cerca! La diferencia de 5 puntos nos enseña algo valioso: Twitter es un termómetro bastante preciso, pero tiende a exagerar la realidad. Existe una 'cámara de eco' donde las voces de los grupos más jóvenes y activos digitalmente resuenan más fuerte que el promedio del país."
+                </p>
+                
+                <p>
+                    Pero es importante destacar que los datos en Twitter nos pueden engañar, ya que los resultados obtenidos pueden no ser realmente representativos de toda la población votante.
+                    Es importante considerar estos sesgos al interpretar los resultados.
+                    En una visualizacion pudimos notar que los tweets realmente no estan agrupados de una forma tan distintiva entre Apruebo y Rechazo, lo que nos hace cuestionar la capacidad predictiva real de este tipo de modelos en contextos politicos.
+                </p>
+                <p>
+                    <a href="https://github.com/vickyotarola" class="btn" style="display:inline-block; margin-top:10px;">Ver Código en GitHub</a>
+                </p>
+            </div>
+            <div class="polaroid-container">
+                <div class="polaroid">
+                    <img src="../figures/pca_tweets.png" alt="PCA de tweets">
+                    <div class="caption">La realidad que nos muestra que el modelo quizás no tiene la info sufciciente para distinguir entre ambas clases</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p> Proyecto de Ciencia de Datos</p>
+    </footer>
+
+</body>
+</html>

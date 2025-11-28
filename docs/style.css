@@ -1,0 +1,330 @@
+:root {
+    /* Paleta inspirada en Chamberlain Coffee */
+    --bg-color: #F9F7F2;       /* Crema suave */
+    --text-color: #3E2723;     /* Café oscuro */
+    --accent-blue: #AEC6CF;    /* Azul pastel */
+    --accent-green: #C1E1C1;   /* Verde matcha suave */
+    --card-bg: #FFFFFF;
+    --border-radius: 16px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+/* Header / Portada */
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: radial-gradient(circle at center, #fff 0%, var(--bg-color) 70%);
+}
+
+h1 {
+    font-size: 3.0rem;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 80px 20px;
+}
+
+/* Sección de Integrantes */
+.team-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.member-tag {
+    background-color: var(--accent-green);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    transition: transform 0.2s;
+}
+
+.member-tag:hover {
+    transform: translateY(-3px);
+    box-shadow: 3px 3px 0px var(--text-color);
+}
+
+/* Títulos de sección */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: var(--accent-blue);
+    position: absolute;
+    bottom: 5px;
+    z-index: -1;
+    opacity: 0.6;
+    border-radius: 4px;
+}
+
+/* Grid de Notebooks */
+.notebook-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 2px solid var(--text-color);
+    border-radius: var(--border-radius);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 6px 6px 0px var(--accent-blue);
+    transform: translate(-2px, -2px);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background-color: var(--text-color);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #5d4037;
+}
+
+/* Tech Stack */
+.tech-stack {
+    margin-top: 80px;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: var(--border-radius);
+    border: 1px dashed var(--text-color);
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tech-item {
+    font-weight: bold;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+/* --- Sección Sticky Note (Contexto) --- */
+
+.note-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 80px 0; /* Espacio arriba y abajo */
+    padding: 0 10px;
+}
+
+.sticky-note {
+    background-color: #FFF8E1; /* Amarillo crema muy suave */
+    color: var(--text-color);
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    position: relative;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.05); /* Sombra suave */
+    transform: rotate(-1deg); /* Una rotación mínima para que parezca pegado a mano */
+    transition: transform 0.3s ease;
+}
+
+.sticky-note:hover {
+    transform: rotate(0deg) scale(1.01); /* Se endereza al pasar el mouse */
+}
+
+/* El efecto de la cinta adhesiva (Washi Tape) */
+.sticky-note::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-2deg);
+    width: 130px;
+    height: 35px;
+    background-color: rgba(220, 235, 225, 0.7); /* Tono verdoso/transparente como cinta real */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    opacity: 0.9;
+}
+
+.sticky-note h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.sticky-note p {
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: justify; /* Para que parezca un bloque de texto de libro */
+}
+
+/* --- Estilos para Storytelling --- */
+
+/* Fuente manuscrita para notas al margen */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.story-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+/* Para alternar izquierda/derecha */
+.story-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.story-text {
+    flex: 1;
+}
+
+.story-text h3 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.story-text p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* El estilo Polaroid */
+.polaroid-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.polaroid {
+    background: #fff;
+    padding: 15px 15px 50px 15px; /* Más espacio abajo para el texto */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    transform: rotate(2deg); /* Un poco chueco para que se vea natural */
+    transition: transform 0.3s ease;
+    max-width: 100%;
+}
+
+.polaroid:hover {
+    transform: rotate(0deg) scale(1.02);
+    z-index: 10;
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #eee;
+}
+
+.caption {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    transform: rotate(-2deg);
+}
+
+/* Caja de Dato Curioso (Estilo "Sello") */
+.fun-fact {
+    border: 2px dashed var(--accent-blue);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 768px) {
+    .story-section, .story-section.reverse {
+        flex-direction: column;
+    }
+    
+    .sticky-note {
+        transform: rotate(0deg);
+        width: auto;
+    }
+}
